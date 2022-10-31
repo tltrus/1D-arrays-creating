@@ -1,6 +1,8 @@
 # 1D-arrays-creating
 Ways to create one-dimensional arrays
 
+Actual for NET 6.0
+
 ```C#
 var a = (int[])Array.CreateInstance(typeof(int), 3); // { 0, 0, 0 }
 var a = new int[3];               // { 0, 0, 0 }
